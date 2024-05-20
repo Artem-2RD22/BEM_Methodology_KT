@@ -1,0 +1,81 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Блок header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5em;
+}
+
+.header__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__nav-item {
+    margin-left: 20px;
+}
+
+.header__nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header__nav-link:hover {
+    color: #ddd;
+}
+
+/* Блок main */
+.main {
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section__image {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.section_theme_light {
+    background-color: #f9f9f9;
+}
+
+.section_theme_dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.section__title {
+    margin-top: 0;
+}
+
+.section__content {
+    margin: 0 0 20px 0;
+}
+
+/* Блок footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
